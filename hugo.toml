@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-zh'
+title = 'BigOrangeQWQ Blog'
+theme = "smol"
+
+[menu]
+# HEADER
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 3
+
+# FOOTER
+[[menu.footer]]
+name = "Github"
+url = "https://github.com/bigorangeqwq"
+weight = 1
