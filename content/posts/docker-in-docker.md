@@ -1,9 +1,9 @@
 ---
-title: "浅谈 Docker in Docker 的几种方法"
+title: "浅谈 Docker in Docker 的两种方法"
 date: 2024-08-29T20:55:24+08:00
 slug: 2024-08-29-docker-in-docker
 type: posts
-draft: true
+draft: false
 categories:
   - computer
 tags:
