@@ -17,4 +17,4 @@ tags:
 
 # 自己搜集的网站
 
-## ...
+## [CS Course](https://csdiy.wiki/)
