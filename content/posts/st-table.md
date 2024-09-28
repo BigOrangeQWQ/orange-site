@@ -5,7 +5,8 @@ slug: 2024-09-28-st-tabel
 type: posts
 draft: false
 categories:
-  - 算法
+  - Algorithm
+  - Computer
 tags:
   - 数据结构
   - 算法
