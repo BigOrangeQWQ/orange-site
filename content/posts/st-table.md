@@ -92,3 +92,37 @@ void Log() {
 #include <cmath>
 floor(log2(233))
 ```
+
+## Template
+
+```cpp
+struct ST {
+    static constexpr int MAXN = 1e6 + 10;
+    static constexpr int LOGN = 21;
+    vector<int> Logn;
+    vector<vector<int>> dp;
+
+    // 输入的数组下标需从 0 开始
+    ST(vector<int>& in) {
+        Logn.assign(MAXN + 1, 0);
+        dp.assign(MAXN + 1, vector<int>(LOGN + 1, 0));
+        Logn[1] = 0, Logn[2] = 1;
+
+        for (int i = 3; i < MAXN; i++) Logn[i] = Logn[i / 2] + 1;
+
+        int n = in.size();
+        for (int i = 0; i < n; i++) {
+            dp[i + 1][0] = in[i];
+        }
+
+        for (int j = 1; j <= LOGN; j++)
+            for (int i = 1; i + (1 << j) - 1 <= n; i++)
+                dp[i][j] = max(dp[i][j - 1], dp[i + (1 << (j - 1))][j - 1]);
+    }
+
+    int query(int l, int r) {
+        int q = Logn[r - l + 1];
+        return max(dp[l][q], dp[r - (1 << q) + 1][q]);
+    }
+};
+```
