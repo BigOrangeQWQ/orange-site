@@ -23,6 +23,9 @@
 	<!-- Tex support -->
 	{{ if .Param "math" }}
 		{{ partialCached "math.html" . }}
+
+	{{ else if .IsHome }}
+		{{ partialCached "math.html" . }}
 	{{ end }}
 
 </head>
