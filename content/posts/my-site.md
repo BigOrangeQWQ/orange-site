@@ -10,13 +10,6 @@ tags:
   - 网站收集
 ---
 
-# 自己部署几个应用
-
-## [Hastbin](https://hastebin.orangeqwq.icu)
-## [Wakapi](https://wakapi.orangeqwq.icu)
-
-# 自己搜集的网站
-
 - [CS Course](https://csdiy.wiki/)
 - [Rust 官网](https://www.rust-lang.org/zh-CN/learn)
 - [Rust 期刊](https://github.com/RustMagazine)

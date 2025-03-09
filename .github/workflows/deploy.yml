@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://blog.orangeqwq.icu"          
+            --baseURL "https://blog.orangeqwq.top"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
