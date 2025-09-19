@@ -6,6 +6,22 @@ type: posts
 draft: false
 categories:
   - Computer
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $
+        enable: true
+params:
+  math: true
 ---
 
 这里记录着我个人对 LLM Agent 的 Ideas
