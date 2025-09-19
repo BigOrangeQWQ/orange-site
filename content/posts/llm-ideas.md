@@ -87,7 +87,9 @@ $$
 \prod_{i=1}^{n} c_i > c_{\text{min}}
 $$
 
-3. AI Reviwer 是 Agent 里面最脆弱也是最垃圾的一环，谁能把这个阶段优化到登峰造极，Agent 就算是一个 while loop 也可以循环出来。
+3. LLM Review
+
+ 对于代码的检视验收是 Agent 里面最脆弱也是最垃圾的一环，谁能把这个阶段优化到登峰造极，Agent 就算是一个 while loop 也可以循环出来。
 
 
 
