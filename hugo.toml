@@ -7,15 +7,15 @@ cleanDestinationDir = true
 theme = "smol"
 
 [languages]
-	[languages.zh]
-		languageCode = "zh-CN"
-		languageName = "中文"
-		weight = 1
+[languages.zh]
+languageCode = "zh-CN"
+languageName = "中文"
+weight = 1
 
-	[languages.en]
-		languageCode = "en-US"
-		languageName = "English"
-		weight = 2
+[languages.en]
+languageCode = "en-US"
+languageName = "English"
+weight = 2
 
 [menu]
 # HEADER
